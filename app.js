@@ -1,5 +1,5 @@
 
-function javascriptTask02(checkNum) {
+function javascriptTask03(checkNum) {
     let arr1 = [];
     for(let i = 1; i <= checkNum; i++) {
         if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0) {
@@ -30,6 +30,8 @@ function javascriptTask02(checkNum) {
     console.log(arr1);
 }
 
-
+javascriptTask03(100);
+javascriptTask03(30);
+javascriptTask03(10);
 
 
