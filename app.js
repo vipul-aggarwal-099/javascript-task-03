@@ -1,4 +1,4 @@
-
+//function description
 function javascriptTask03(checkNum) {
     let arr1 = [];
     for(let i = 1; i <= checkNum; i++) {
@@ -30,6 +30,7 @@ function javascriptTask03(checkNum) {
     console.log(arr1);
 }
 
+//Calling the function
 javascriptTask03(100);
 javascriptTask03(30);
 javascriptTask03(10);
